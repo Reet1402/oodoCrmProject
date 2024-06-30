@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="OpenWeather Automation Testing Suite">
+
+	<listeners>
+		<listener class-name="fcm.qa.ExtentReportListener.ExtenetReportListener" />
+	</listeners>
+
+	<test name="OpenWeather Automation Test Cases">
+		<classes>
+			<class name="fcm.qa.testcases.LoginPageTest" />
+			<class name="fcm.qa.testcases.HomePageTest" />
+			<class name="fcm.qa.testcases.DiscussPageTest" />
+			<class name="fcm.qa.testcases.ContactsPageTest" />
+			<class name="fcm.qa.testcases.CalenderPageTest" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
